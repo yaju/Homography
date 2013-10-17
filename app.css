@@ -1,0 +1,49 @@
+﻿body {
+  background-color: #000;
+  margin: 10px;
+  overflow: hidden;
+}
+
+#controler {
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+  top: 0px;
+  padding: 5px 10px;
+  background-color: #333;
+  -moz-opacity:0.75;
+  opacity:0.75;
+  color: #FFF;
+}
+
+#controler input {
+  padding: 0;
+  vertical-align: middle;
+}
+#controler,
+#controler input {
+  font-size: 12px;
+}
+
+.point {
+    display: block;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 1.0);
+    cursor: pointer;
+}
+.point:active{
+    cursor: move;
+}
+
+.handle {
+    width: 20px; height: 20px;
+    background-color: rgba(255, 0, 0, .25);
+    border-radius: 10px;
+}
+
+
+
+

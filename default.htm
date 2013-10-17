@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+
+<html lang="ja" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>テクスチャマッピング入門 射影変換(ホモグラフィ)</title>
+    <link rel="stylesheet" href="app.css" type="text/css" />
+</head>
+<body>
+    <div id="controler">
+    degrees: <input type="range" value="0" min="0" max="360" id="degrees" />
+    <span id="degreesDisp">0</span><span style="white-space: pre">    Shape stored at 0 degrees</span><br /><br />
+    drawType: 
+    <input type="radio" name="drawType" value="Nearest" checked="checked" />Nearest
+    <input type="radio" name="drawType" value="Bilinear" />Bilinear<br /><br />
+    <span id="i1" class="info1">Anchor1 (000,000)</span>
+    <span id="i2" class="info2">Anchor2 (000,000)</span>
+    <span id="i3" class="info3">Anchor3 (000,000)</span>
+    <span id="i4" class="info4">Anchor4 (000,000)</span>
+    </div>
+    <span id="p1" class="point handle"></span>
+    <span id="p2" class="point handle"></span>
+    <span id="p3" class="point handle"></span>
+    <span id="p4" class="point handle"></span>
+    <canvas id="ctx"></canvas>
+    <script src="http://glmatrix.googlecode.com/files/glMatrix-0.9.5.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

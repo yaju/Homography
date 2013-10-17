@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2012 for Web
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homography", "Homography.csproj", "{FB37A1FC-D888-4D89-97EE-1E875885417B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FB37A1FC-D888-4D89-97EE-1E875885417B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB37A1FC-D888-4D89-97EE-1E875885417B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB37A1FC-D888-4D89-97EE-1E875885417B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB37A1FC-D888-4D89-97EE-1E875885417B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
